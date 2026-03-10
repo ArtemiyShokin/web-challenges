@@ -1,0 +1,77 @@
+[33mcommit 93faa4182375c3e4faaee6919843abf38c5c3b63[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mpokemon[m[33m)[m
+Author: Artemiy <artemiy.shokin@gmail.com>
+Date:   Mon Mar 9 18:50:54 2026 +0100
+
+    mostly finished pokemon website challenge
+
+[33mcommit e4c172a84be35db5f16afb4af0d9a28ec046b28b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: c13448f fdfc957
+Author: Artemiy <88054498+ArtemiyShokin@users.noreply.github.com>
+Date:   Mon Mar 9 17:46:03 2026 +0100
+
+    Merge pull request #4 from ArtemiyShokin/button-styles
+    
+    created some funny buttons
+
+[33mcommit fdfc957899c9277c3cb28426fed3658071393d6d[m[33m ([m[1;31morigin/button-styles[m[33m, [m[1;32mbutton-styles[m[33m)[m
+Author: Artemiy <artemiy.shokin@gmail.com>
+Date:   Mon Mar 9 17:44:24 2026 +0100
+
+    created some funny buttons
+
+[33mcommit c13448f163d934f16a25fb1546b9321a9b4d438d[m
+Merge: 61d7bbf 36100a7
+Author: Artemiy <88054498+ArtemiyShokin@users.noreply.github.com>
+Date:   Mon Mar 9 16:49:32 2026 +0100
+
+    Merge pull request #3 from ArtemiyShokin/combined-users
+    
+    finished combined-users challenge
+
+[33mcommit 36100a7022519f1e454eddc14f5e969b41a53fd0[m[33m ([m[1;31morigin/combined-users[m[33m, [m[1;32mcombined-users[m[33m)[m
+Author: Artemiy <artemiy.shokin@gmail.com>
+Date:   Mon Mar 9 16:46:48 2026 +0100
+
+    finished combined-users challenge
+
+[33mcommit 61d7bbf76858a7ba5c755ebb441fbfb04ce4839b[m
+Merge: c05fd4b 1e0972f
+Author: Artemiy <88054498+ArtemiyShokin@users.noreply.github.com>
+Date:   Mon Mar 9 16:17:36 2026 +0100
+
+    Merge pull request #2 from ArtemiyShokin/pseudo-park
+    
+    completed the pseudo park challenge
+
+[33mcommit 1e0972fa7e2c21ffb197897efe4144bf0f81d631[m[33m ([m[1;31morigin/pseudo-park[m[33m, [m[1;32mpseudo-park[m[33m)[m
+Author: Artemiy <artemiy.shokin@gmail.com>
+Date:   Mon Mar 9 16:16:15 2026 +0100
+
+    completed the pseudo park challenge
+
+[33mcommit c05fd4b582b1d818e0f491877be905157097ecc1[m
+Merge: c197a16 c6e81f4
+Author: Artemiy <88054498+ArtemiyShokin@users.noreply.github.com>
+Date:   Mon Mar 9 15:58:38 2026 +0100
+
+    Merge pull request #1 from ArtemiyShokin/pink-box
+    
+    completed the pink box challenge
+
+[33mcommit c6e81f475d7006c684e4f2c3234794379702f976[m[33m ([m[1;31morigin/pink-box[m[33m, [m[1;32mpink-box[m[33m)[m
+Author: Artemiy <artemiy.shokin@gmail.com>
+Date:   Mon Mar 9 15:55:50 2026 +0100
+
+    completed the pink box challenge
+
+[33mcommit c197a1601c11fb1c42b8e77ae484946a998d0714[m
+Author: Artemiy <artemiy.shokin@gmail.com>
+Date:   Mon Mar 9 15:41:57 2026 +0100
+
+    uploading css challenges for the first time
+
+[33mcommit 6850f3e6ee581d3d5c80f15b3468000411792b99[m
+Author: Artemiy <artemiy.shokin@gmail.com>
+Date:   Fri Mar 6 15:50:32 2026 +0100
+
+    adds the notes, treasure hunt, html challenges
