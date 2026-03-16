@@ -30,11 +30,8 @@ body {
   min-width: 40rem;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-
-  /* grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr); */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 
   /* Add styles to the grid container */
 }
