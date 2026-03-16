@@ -56,25 +56,33 @@ body {
 }
 
 .element-1 {
+  grid-column: 3 / span 2;
   /* Add styles here */
 }
 
 .element-2 {
   /* Add styles here */
+  grid-column: 5 / 13;
 }
 
 .element-5 {
+  grid-column: span 2;
+  grid-row: span 2;
   /* Add styles here */
 }
 
 .element-8 {
+  grid-row: span 2;
   /* Add styles here */
 }
 
 .element-spiced {
+  grid-row: 1;
+  grid-column: span 12;
   /* Add styles here */
 }
 
 .element-20 {
+  grid-row: 6 / span 2;
   /* Add styles here */
 }
