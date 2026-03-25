@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Personal Profile Form</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>Create Your Personal Profile</h1>
+    <fieldset>
+      <p id="personal-info">
+        We want to get to know you! Please enter your personal information.
+      </p>
+
+      <fieldset aria-describedby="personal-info">
+        <legend>Personal Information</legend>
+        <label for="First-Name">First Name:</label>
+        <input type="text" id="First-Name" />
+
+        <label for="Last-Name">Last Name:</label>
+        <input type="text" id="Last-Name" />
+
+        <label for="Birthday"> Your Birthday:</label>
+        <input type="date" />
+      </fieldset>
+      <p id="Tell-More">
+        Can you tell us a little bit more? We want to annoy you with unwanted
+        ads.
+      </p>
+      <fieldset aria-describedby="Tell-More">
+        <legend>Further Information</legend>
+        <label for="favorite-color">Favorite Color: </label>
+        <input
+          type="color"
+          name="favorite-color"
+          id="favorite-color"
+          value="#E5430F"
+        />
+        <label for="favorite-pet"></label>
+        <select name="favorite-pet" id="favorite-pet">
+          <option value="">--- Please choose an option ---</option>
+          <option value="Agra-Cadabra">Agra Cadabra</option>
+          <option value="Fried-Egg-Jellyfish">Fried Egg Jellyfish</option>
+          <option value="Belka">Belka</option>
+        </select>
+      </fieldset>
+      <button aria-label="Submit" type="submit">Submit</button>
+    </fieldset>
+  </body>
+</html>
