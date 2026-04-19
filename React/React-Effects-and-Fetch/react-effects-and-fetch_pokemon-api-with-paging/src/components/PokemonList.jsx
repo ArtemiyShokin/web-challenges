@@ -13,6 +13,7 @@ export default function PokemonList() {
         const data = await response.json();
         setPokemon(data.results);
         setPage(data);
+        console.log(data);
       } catch (error) {
         console.log(error);
       }
@@ -22,14 +23,18 @@ export default function PokemonList() {
 
   return (
     <main>
-      <button
-        type="button"
-        onClick={() => {
-          setPage(page.previous);
-        }}
-      >
-        Previous Page
-      </button>
+      {page.previous === null ? (
+        <button disabled> Previous Page </button>
+      ) : (
+        <button
+          type="button"
+          onClick={() => {
+            setPage(page.previous);
+          }}
+        >
+          Previous Page
+        </button>
+      )}
       <button
         type="button"
         onClick={() => {
