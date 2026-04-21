@@ -1,0 +1,23 @@
+.ant__svg-container {
+}
+.ant__body {
+  fill: coral;
+  stroke: #000000;
+  stroke-width: 0px;
+}
+.ant__left-eye {
+  fill: #ffee00;
+  stroke: #864478;
+  stroke-dasharray: 1%;
+  stroke-width: 1px;
+}
+.ant_right-eye {
+  fill: #c9cc12;
+}
+
+.ant__body:hover {
+  stroke: red;
+  stroke-width: 2px;
+  stroke-dasharray: 5px;
+  stroke-dashoffset: 10px;
+}

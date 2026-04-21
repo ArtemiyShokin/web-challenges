@@ -1,11 +1,11 @@
 import React, { useState } from "react";
+import { useChronicle } from "./hooks/useChronicle";
 import "./styles.css";
 
 export default function App() {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [phoneNumber, setPhoneNumber] = useState("");
-
+  const [lastName, setLastName, undoLastName] = useChronicle("");
+  const [phoneNumber, setPhoneNumber, undoPhoneNumber] = useChronicle("");
+  const [firstName, setFirstName, undoFirstName] = useChronicle("");
   return (
     <form>
       <label>
@@ -16,7 +16,7 @@ export default function App() {
             value={firstName}
             onChange={(event) => setFirstName(event.target.value)}
           />
-          <button type="button" onClick={() => {}}>
+          <button type="button" onClick={undoFirstName}>
             undo
           </button>
         </div>
@@ -29,7 +29,7 @@ export default function App() {
             value={lastName}
             onChange={(event) => setLastName(event.target.value)}
           />
-          <button type="button" onClick={() => {}}>
+          <button type="button" onClick={undoLastName}>
             undo
           </button>
         </div>
@@ -42,7 +42,7 @@ export default function App() {
             value={phoneNumber}
             onChange={(event) => setPhoneNumber(event.target.value)}
           />
-          <button type="button" onClick={() => {}}>
+          <button type="button" onClick={undoPhoneNumber}>
             undo
           </button>
         </div>
