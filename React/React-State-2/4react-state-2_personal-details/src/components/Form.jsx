@@ -1,7 +1,15 @@
 export default function Form({ onCreateUser }) {
   function handleSubmit(event) {
     event.preventDefault();
-    onCreateUser(event.target.elements.name, event.target.elements.email);
+    // console.log(
+    //   "name and email: ",
+    //   event.target.elements.name.value,
+    //   event.target.elements.email.value,
+    // );
+    onCreateUser(
+      event.target.elements.name.value,
+      event.target.elements.email.value,
+    );
     event.target.reset();
     event.target.name.focus();
   }

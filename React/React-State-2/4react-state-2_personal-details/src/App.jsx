@@ -3,8 +3,8 @@ import Form from "./components/Form";
 import { useState } from "react";
 
 export default function App() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+  const [name, setName] = useState("🙂‍↔️");
+  const [email, setEmail] = useState("🏝️");
   function handleCreateUser(name, email) {
     setName(name);
     setEmail(email);
